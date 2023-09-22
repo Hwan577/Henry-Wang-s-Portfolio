@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Henry Wang's Portfolio</title>
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="formatting.css">
+    </head>
+    <body>
+      <!--Grey box on right with download button-->
+      <div class="text-box1">
+        <h1>Henry Wang</h1>
+        <button><img src="download.png" style="width:22px; transform: translateY(5px);">&nbsp &nbsp Download Resume</button>
+      </div>
+
+       <!--Hero Page (transparent image overlayed so that image element can be copied by user)-->
+      <div class="background">
+        <img src="Hero1.jpg" style="opacity:0; width:100%">
+      </div>
+      
+       <!--Navigation bar-->
+      <nav class="nav-bar">
+        <img src="Hero2.jpg" style="width:100%">
+        <a href="#top">
+          <p>HOME</p>
+        </a>
+        <a href="#about">
+          <p>ABOUT</p>
+        </a>
+        <a href="#work-experience">
+          <p>WORK EXPERIENCE</p>
+        </a>
+        <a href="#contact">
+          <p>CONTACT</p>
+        </a>
+      </nav>
+      <!--Content div containing the three sections of the page-->
+      <div class="text-box2">
+        <h1 id="about">About Me</h1>
+        <p1>Hi! My name is Henry Wang. I graduated from Victoria Park Collegiate Institute with an IB diploma with a 40/45 score. Currently, 
+          I am student at Western University studying my second year in Software Engineering. In addition to academics, I
+          enjoy playing and listening to music passionately, having over 10 years of piano playing experience and have addition experience
+          with both percussion and violin, playing in multiple musical ensembles over the last 7 years. 
+        </p1>
+        
+        <br><br><br><br><br><br>
+
+        <h1 id="work-experience">Work Experience</h1>
+        <ul>
+          <h2>Piano Tutor (2022-2023)</h2>
+          <li>Assisted multiple players aged 7-10 with their piano practice sessions.</li>
+          <li>Prepared activities to help improve my students' playing technique, rhythm and sight reading abilities.</li>
+          <li>Motivated and engaged students to continue learning and practising music.</li>
+        </ul>
+        
+        <br><br><br><br><br><br>
+        
+        <h1 id="contact">Contact Me</h1>
+        <form>
+          <input type="text" name="name" placeholder="Name"/>
+          <input type="text" name="email" placeholder="Email"/>
+          <textarea name="message" style="height:100px; padding:10px 3px" placeholder="Message"></textarea>
+          <input type="submit" value="Enter" style="width:813px"/>
+        </form>
+      </div>
+      
+       <!--Footer-->
+      <footer>
+        <p>Henry Wang's Portfolio</p>
+      </footer>
+    </body>
+</html>
